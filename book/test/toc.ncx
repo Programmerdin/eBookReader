@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="44655c21-173a-4e75-8a0a-d51a01d8a215" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (1.35.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail (Management of Innovation and Change)</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="num_1" playOrder="1">
+      <navLabel>
+        <text>Copyright</text>
+      </navLabel>
+      <content src="text/part0001.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_2" playOrder="2">
+      <navLabel>
+        <text>In Gratitude</text>
+      </navLabel>
+      <content src="text/part0003.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_3" playOrder="3">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="text/part0004_split_000.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_4" playOrder="4">
+      <navLabel>
+        <text>Part One: WHY GREAT COMPANIES CAN FAIL</text>
+      </navLabel>
+      <content src="text/part0005.html"/>
+      <navPoint class="chapter" id="num_5" playOrder="5">
+        <navLabel>
+          <text>CHAPTER ONE: How Can Great Firms Fail? Insights from the Hard Disk Drive Industry</text>
+        </navLabel>
+        <content src="text/part0006_split_000.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_6" playOrder="6">
+        <navLabel>
+          <text>CHAPTER TWO: Value Networks and the Impetus to Innovate</text>
+        </navLabel>
+        <content src="text/part0007_split_000.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_7" playOrder="7">
+        <navLabel>
+          <text>CHAPTER THREE: Disruptive Technological Change in the Mechanical Excavator Industry</text>
+        </navLabel>
+        <content src="text/part0008_split_000.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_8" playOrder="8">
+        <navLabel>
+          <text>CHAPTER FOUR: What Goes Up, Can’t Go Down</text>
+        </navLabel>
+        <content src="text/part0009_split_000.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_9" playOrder="9">
+      <navLabel>
+        <text>Part Two: MANAGING DISRUPTIVE TECHNOLOGICAL CHANGE</text>
+      </navLabel>
+      <content src="text/part0010_split_000.html"/>
+      <navPoint class="chapter" id="num_10" playOrder="10">
+        <navLabel>
+          <text>CHAPTER FIVE: Give Responsibility for Disruptive Technologies to Organizations Whose Customers Need Them</text>
+        </navLabel>
+        <content src="text/part0011_split_000.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_11" playOrder="11">
+        <navLabel>
+          <text>CHAPTER SIX: Match the Size of the Organization to the Size of the Market</text>
+        </navLabel>
+        <content src="text/part0012_split_000.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_12" playOrder="12">
+        <navLabel>
+          <text>CHAPTER SEVEN: Discovering New and Emerging Markets</text>
+        </navLabel>
+        <content src="text/part0013_split_000.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_13" playOrder="13">
+        <navLabel>
+          <text>CHAPTER EIGHT: How to Appraise Your Organization’s Capabilities and Disabilities</text>
+        </navLabel>
+        <content src="text/part0014_split_000.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_14" playOrder="14">
+        <navLabel>
+          <text>CHAPTER NINE: Performance Provided, Market Demand, and the Product Life Cycle</text>
+        </navLabel>
+        <content src="text/part0015_split_000.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_15" playOrder="15">
+        <navLabel>
+          <text>CHAPTER TEN: Managing Disruptive Technological Change: A Case Study</text>
+        </navLabel>
+        <content src="text/part0016_split_000.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_16" playOrder="16">
+        <navLabel>
+          <text>CHAPTER ELEVEN: The Dilemmas of Innovation: A Summary</text>
+        </navLabel>
+        <content src="text/part0017_split_000.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_17" playOrder="17">
+      <navLabel>
+        <text>The Innovator’s Dilemma Book Group Guide</text>
+      </navLabel>
+      <content src="text/part0018_split_000.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_18" playOrder="18">
+      <navLabel>
+        <text>About the Author</text>
+      </navLabel>
+      <content src="text/part0019.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

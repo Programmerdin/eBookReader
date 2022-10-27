@@ -9,10 +9,19 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@epubjs-react-native/core": "^1.1.0",
+    "@epubjs-react-native/expo-file-system": "^1.0.0",
+    "@expo/webpack-config": "^0.17.0",
     "expo": "~46.0.16",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
-    "react-native": "0.69.6"
+    "react-dom": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "~2.5.0",
+    "react-native-render-html": "^6.3.4",
+    "react-native-web": "~0.18.7",
+    "react-native-webview": "11.23.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
