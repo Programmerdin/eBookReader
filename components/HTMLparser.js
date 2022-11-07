@@ -1,18 +1,21 @@
 //create react native app
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
-import HTMLparser from "./components/HTMLparser";
+//import C:\Users\testi\Desktop\Local Coding\eBookReader\my-app\book\test\text\part0004_split_010.html
+import part0004_split_010 from "../book/test/text/part0004_split_010.html";
 
-const App = () => {
+const HTMLparser = () => {
+  const part = part0004_split_010;
+  console.log(part);
 
   return (
     <View style={styles.container}>
-      <HTMLparser />
+      <Text>{part}</Text>
     </View>
   );
 };
 
-export default App;
+export default HTMLparser;
 
 const styles = StyleSheet.create({
   container: {
