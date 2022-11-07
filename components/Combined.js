@@ -1,20 +1,20 @@
 //create react native app
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
-//import C:\Users\testi\Desktop\Local Coding\eBookReader\my-app\book\test\text\part0004_split_010.html
-import part0004_split_010 from "../book/test/text/part0004_split_010.html";
+import Menu from "./Menu";
+import TextDisplay from "./TextDisplay";
 
-const HTMLparser = () => {
-  const part = part0004_split_010;
+const Combined = () => {
 
   return (
     <View style={styles.container}>
-      <Text>{part}</Text>
+      <Menu />
+      <TextDisplay />
     </View>
   );
 };
 
-export default HTMLparser;
+export default Combined;
 
 const styles = StyleSheet.create({
   container: {

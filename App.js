@@ -1,13 +1,13 @@
 //create react native app
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
-import HTMLparser from "./components/HTMLparser";
+import Combined from "./components/Combined";
 
 const App = () => {
 
   return (
     <View style={styles.container}>
-      <HTMLparser />
+      <Combined />
     </View>
   );
 };
