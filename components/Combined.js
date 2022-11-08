@@ -5,11 +5,15 @@ import Menu from "./Menu";
 import TextDisplay from "./TextDisplay";
 
 const Combined = () => {
-
   return (
     <View style={styles.container}>
-      <Menu />
-      <TextDisplay />
+      <View style={styles.Menu_container}>
+        <Menu />
+      </View>
+
+      <View style={styles.TextDisplay_container}>
+        <TextDisplay />
+      </View>
     </View>
   );
 };
@@ -22,4 +26,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  Menu_container: {
+    flex: 1,
+  },
+  TextDisplay_container: {
+    flex: 1,
+  },
+
 });
