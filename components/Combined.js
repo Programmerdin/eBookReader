@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import Menu from "./Menu";
 import TextDisplay from "./TextDisplay";
+import ProgressDisplay from "./ProgressDisplay";
+
 
 const Combined = () => {
   return (
@@ -13,6 +15,9 @@ const Combined = () => {
 
       <View style={styles.TextDisplay_container}>
         <TextDisplay />
+      </View>
+      <View style={styles.ProgressDisplay_container}>
+        <ProgressDisplay />
       </View>
     </View>
   );
@@ -27,10 +32,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   Menu_container: {
-    flex: 1,
+    height: 100,
   },
   TextDisplay_container: {
     flex: 1,
+  },
+  ProgressDisplay_container: {
+    height: 100,
   },
 
 });
