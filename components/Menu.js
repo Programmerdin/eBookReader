@@ -11,16 +11,19 @@ const Menu = () => {
   //font color
   //inner_screen background color
   //inner_screen width
+
+  //most of the states will change style in TextDisplay.js and ProgressDisplay.js
   const [fontSize, setFontSize] = useState(20);
   const [fontColor, setFontColor] = useState("black");
-  const [innerScreen_backgroundColor, setInnerScreen_backgroundColor] = useState("white");
+  //background color changes background color of Combined.js
+  const [BackgroundColor, setBackgroundColor] = useState("white");
   const [innerScreen_width, setInnerScreen_width] = useState(90);
 
   return (
     <View style={styles.container}>
       <Text>Menu</Text>
-      <Text>{fontSize}</Text>
-      <Text>{fontColor}</Text>
+      <Text>Font Size: {fontSize}</Text>
+      <Text>Font Color: {fontColor}</Text>
 
       {/* increase fontSize by 1 every time touchable opacity is pressed */}
       <TouchableOpacity onPress={() => setFontSize(fontSize + 1)}>

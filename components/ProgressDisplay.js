@@ -7,7 +7,7 @@ const ProgressDisplay = () => {
 
   return (
     <View style={styles.container}>
-      <Text>Progress Display</Text>
+      <Text style={styles.text}>Progress Display</Text>
     </View>
   );
 };
@@ -20,5 +20,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "blue",
+  },
+  text:{
+    color: "white",
   },
 });
