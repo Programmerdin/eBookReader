@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
   text_style: {
     fontSize: 20,
-    color: "black",
+    color: "white",
     textAlign:"justify"
   },
 });

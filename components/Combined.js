@@ -1,15 +1,15 @@
 //create react native app
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from "expo-status-bar";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 import Menu from "./Menu";
 import TextDisplay from "./TextDisplay";
 import ProgressDisplay from "./ProgressDisplay";
 
-
 const Combined = () => {
   return (
-    <View style={styles.container}>
+    <GestureHandlerRootView style={styles.container}>
       <StatusBar hidden={true} style="auto" />
       <View style={styles.Menu_container}>
         <Menu />
@@ -18,10 +18,9 @@ const Combined = () => {
       <View style={styles.TextDisplay_container}>
         <TextDisplay />
       </View>
-      <View style={styles.ProgressDisplay_container}>
-        <ProgressDisplay />
-      </View>
-    </View>
+
+      <ProgressDisplay />
+    </GestureHandlerRootView>
   );
 };
 
@@ -33,7 +32,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
-    backgroundColor: "white",
+    backgroundColor: "#121212",
   },
   Menu_container: {
     height: 100,
@@ -41,8 +40,4 @@ const styles = StyleSheet.create({
   TextDisplay_container: {
     flex: 1,
   },
-  ProgressDisplay_container: {
-    height: 50,
-  },
-
 });

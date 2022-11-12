@@ -1,14 +1,15 @@
 //create react native app
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 import Combined from "./components/Combined";
 
 const App = () => {
 
   return (
-    <View style={styles.container}>
+    <GestureHandlerRootView style={styles.container}>
       <Combined />
-    </View>
+    </GestureHandlerRootView>
   );
 };
 
