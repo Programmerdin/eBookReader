@@ -2,14 +2,14 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
 import Menu from "./Menu";
+import { Gesture, GestureDetector, GestureHandlerRootView } from "react-native-gesture-handler";
 import TextDisplay from "./TextDisplay";
 import ProgressDisplay from "./ProgressDisplay";
 
 const Combined = () => {
   return (
-    <GestureHandlerRootView style={styles.container}>
+    <View style={styles.container}>
       <StatusBar hidden={true} style="auto" />
       <View style={styles.Menu_container}>
         <Menu />
@@ -20,7 +20,7 @@ const Combined = () => {
       </View>
 
       <ProgressDisplay />
-    </GestureHandlerRootView>
+    </View>
   );
 };
 
